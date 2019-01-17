@@ -1,0 +1,41 @@
+.schedule {
+    margin-bottom: 20px;
+}
+
+.schedule figure {
+    display: flex;
+    align-items: flex-start;
+}
+
+.schedule figcaption {
+    margin-left: 40px;
+}
+
+.time {
+    display: block;
+}
+
+.location {
+    display: block;
+    max-width: 300px;
+}
+
+@media only screen and (max-width: 649px) {
+    .schedule:last-child {
+        margin-bottom: 60px;
+    }
+} 
+
+@media only screen and (min-width: 650px) {
+    .schedule {
+        text-align: right;
+    }
+
+    .schedule figure {
+        flex-direction: row-reverse;
+    }
+
+    .schedule figcaption {
+        margin-right: 40px;
+    }
+}

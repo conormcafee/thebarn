@@ -1,0 +1,43 @@
+.accomodation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.accomodation:first-child {
+    margin-top: 130px;
+}
+
+.accomodation header > div {
+    display: flex;
+    align-items: center;
+}
+
+.accomodation header img {
+    margin-right: 10px;
+}
+
+.accomodation a {
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.accomodation a,
+.accomodation span {
+    display: block;
+}
+
+@media only screen and (max-width: 649px) {
+    .accomodation header > div {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .accomodation header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+}

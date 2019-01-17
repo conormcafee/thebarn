@@ -1,0 +1,24 @@
+.container {
+    max-width: 1067px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media only screen and (min-width: 650px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 80px;
+    }
+
+    .containerText p {
+        max-width: 350px;
+    }
+    
+    .containerText p:first-child {
+        text-align: right;
+        margin-left: auto;
+    }
+}

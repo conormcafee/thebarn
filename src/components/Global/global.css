@@ -1,0 +1,126 @@
+:root {
+    --navy: rgba(9, 30, 48, 1);
+    --navy-semi-transparent: rgba(9, 30, 48, 0.5);
+    --navy-transparent: rgba(9, 30, 48, 0);
+    --blue: #79CEE1;
+}
+
+.pattern {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pattern:before {
+    content: "";
+    background-image: url("../../images/pattern.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    background-repeat: repeat;
+    background-size: 56px 56px;
+    opacity: 0.30;
+}
+
+body { 
+    color: white; 
+    background-color: var(--navy); 
+    line-height: 1.6;
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
+b {
+    font-weight: 600
+}
+
+figure {
+    margin: 0
+}
+
+.italic {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-family: 'Raleway';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.light {
+    font-family: 'Raleway';
+    font-weight: 300;
+}
+
+.heading {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+figure img {
+    display: block;
+    max-width: 100%;
+}
+
+.font-small { font-size: 14px; line-height: 1.6 }
+.font-base { font-size: 16px; line-height: 1.6 }
+.font-medium { font-size: 22px; line-height: 1.3 }
+.font-title { font-size: 35px; line-height: 1.3 }
+.font-large { font-size: 60px; line-height: 1.3 }
+
+@media only screen and (min-width: 650px) {
+    .font-small-sm { font-size: 14px; line-height: 1.6 }
+    .font-base-sm { font-size: 16px; line-height: 1.6 }
+    .font-medium-sm { font-size: 22px; line-height: 1.3 }
+    .font-title-sm { font-size: 35px; line-height: 1.3 }
+    .font-large-sm { font-size: 60px; line-height: 1.3 }
+}
+
+.bg-navy { background-color: var(--navy); }
+
+.text-white { color: white }
+.text-blue { color: var(--blue) }
+
+.text-center { text-align: center }
+
+/* Spacing */
+.pv8 { padding-bottom: 80px; padding-top: 80px; }
+
+.mt0 { margin-top: 0px; }
+.mv0 { margin-top: 0; margin-bottom: 0 }
+.mv4 { margin-top: 40px; margin-bottom: 40px }
+.mv8 { margin-top: 80px; margin-bottom: 80px }
+
+.mt1 { margin-top: 10px; }
+
+/* List Reset */
+.listReset { list-style: none; padding-left: 0 }
+
+/* z-index */
+.z10 { position: relative; z-index: 10;}
+
+.gradient {
+    background: rgb(9,30,48);
+    background: linear-gradient(180deg, rgba(9,30,48,1) 0%, rgba(2,18,32,1) 100%);
+}

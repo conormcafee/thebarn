@@ -70,7 +70,7 @@ class Index extends React.Component {
                     <Container className="z10" id="Accomodation">
                         <article>
                             <h2 className="heading font-title mt0">Accomodation</h2>
-                            <p>There is on;y accomodation on site for the bridal party, so for those who are wishing to stay we have sorted a list of nearby accomodation.</p>
+                            <p>There is only accomodation on site for the bridal party, so for those who are wishing to stay we have sorted a list of nearby accomodation.</p>
                             <p>For those who opt to stay in the Crowne Plaza in Dundalk, we will provide a bus from the hotel to the venue, and then at the end of the night back to the Crowne Plaza.  If you book into the Crowne Plaza, send either Conor or Fionnuala a message so we can gauge numbers.</p>
                         </article>
                         

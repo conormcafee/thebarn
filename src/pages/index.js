@@ -9,7 +9,6 @@ import PhotoCard from "../components/PhotoCard/PhotoCard";
 import Accomodation from "../components/Accomodation";
 
 import * as Data from "../data";
-
 class Index extends React.Component {
     render() {
         return (
@@ -23,8 +22,10 @@ class Index extends React.Component {
                 {/* Introduction */}
 
                 <Container className="light z10" text id="intro">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis erat et velit blandit pellentesque. Pellentesque vestibulum sapien non dignissim fermentum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis erat et velit blandit pellentesque. Pellentesque vestibulum sapien non dignissim fermentum.</p>
+                    
+                    <p>Our wedding venue is Segrave Barn in Co. Louth, and while it is a little different, we hope you will love it as much as we do. We have put together this website to help with all the logistics and informaiton you will need for the day. </p>
+                    
+                    <p>We've listed the running order of the day, directions to the chapel &amp; Segrave Barns (only a 25 minutes from Dromintee).  We've also listed accomodation for those wishing to stay the night of the wedding.</p>
                 </Container>
 
                 {/* Schedule & Music */}
@@ -49,8 +50,8 @@ class Index extends React.Component {
                     <Container className="z10" id='Directions'>
                         <article>
                             <h2 className="heading font-title mt0">Directions</h2>
-                            <p>For those unfamilar with the Dromintee parish, please click on the image of the chapel and this will take you to Google Maps to get directions.</p>
-                            <p>If you are needing directions to Segrave Barns, Dunany then click on the image of Segrave and this will automatically populate directions from St Patrick’s Church to Segrave (roughly a 30 minute journey).</p>
+                            <p>The wedding will take place in St Patrick's Chapel. Dromintee, Co. Armagh.  Click here for directions.</p>
+                            <p>The reception is being held in Segrave Barns, Dunany, Co. Louth.  Click here for directions to Segrave Barns from St Patrick's Chapel.  We ask that you go straight to the reception once the mass is over as we will have canapes &amp; drinks on arrival.</p>
                         </article>
                         <aside>
                             {Data.DIRECTIONS.map((direct, index) => (
@@ -69,9 +70,13 @@ class Index extends React.Component {
 
                     <Container className="z10" id="Accomodation">
                         <article>
-                            <h2 className="heading font-title mt0">Accomodation</h2>
-                            <p>There is only accomodation on site for the bridal party, so for those who are wishing to stay we have sorted a list of nearby accomodation.</p>
-                            <p>For those who opt to stay in the Crowne Plaza in Dundalk, we will provide a bus from the hotel to the venue, and then at the end of the night back to the Crowne Plaza.  If you book into the Crowne Plaza, send either Conor or Fionnuala a message so we can gauge numbers.</p>
+                            <h2 className="heading font-title mt0">Accommodation</h2>
+                            <p>Accommodation on site is limited to the bridal party, so we have combined a list of local accommodation for those wishing to stay over.</p>
+                            <h3 className="bold font-small text-blue mt0 no-uppercase">Accommodation for the night before the wedding</h3>
+                            <p>Dromintee Chapel is approx. 1 hour 15 min drive from Ballymena. Anyone wishing to stay the night before the wedding, we would recommend the Carrickdale Hotel, which is 2 miles from the Chapel. The Crowne Plaza, Dundalk, is approx 15 mins from the Chapel, making it another viable option.</p> 
+                            <h3 className="bold font-small text-blue mt0 no-uppercase">Accommodation for night of the wedding</h3>
+                            <p>We have rooms held in the Crowne Plaza, Dundalk, and if there is enough interest, we will provide a bus from the hotel to Segrave (return) for those guests. There are also some local B&Bs surrounding Segrave, and we will have a list of local taxis/taxi buses to ensure transport runs smoothly.</p>
+                            <p>For anyone searching for their own accommodation, Segrave Barn is in the village of Dunany, and the nearby townlands are Annagassan, Togher, Clougherhead & Termonfeckin.</p>
                         </article>
                         
                         <aside>

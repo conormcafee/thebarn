@@ -2,7 +2,7 @@
     --navy: rgba(9, 30, 48, 1);
     --navy-semi-transparent: rgba(9, 30, 48, 0.5);
     --navy-transparent: rgba(9, 30, 48, 0);
-    --blue: #79CEE1;
+    --blue: #afebf9;
 }
 
 .pattern {
@@ -58,6 +58,10 @@ figure {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.no-uppercase {
+    text-transform: none;
 }
 
 .light {

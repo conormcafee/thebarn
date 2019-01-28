@@ -110,27 +110,59 @@ export const DIRECTIONS = [
 
 export const ACCOMODATION = [
     {
-        place: "Crowne Plaza, Dundalk",
+        place: "Crowne Plaza Hotel, Dundalk",
+        type: "Hotel",
         distance: "15 mins",
         website: "https://dundalk.ie",
-        phone: "+447709128374"
+        phone: "+447709128374",
+        code: "FMC" // 22nd May €129 B&B per room
     },
     {
-        place: "The Glide Inn, Annagassen",
-        distance: "7 mins",
-        website: "https://dundalk.ie",
-        phone: "+447709128374"
+        place: "Cooley View",
+        type: "B&B",
+        distance: "3 mins",
+        website: null,
+        phone: "+00353872764048",
+        contact: "Susan Donegan"
     },
     {
-        place: "Fancy House, Teramafeckin",
-        distance: "15mins",
-        website: "https://dundalk.ie",
-        phone: "+447709128374"
+        place: "Sea Breeze House",
+        type: "B&B",
+        distance: "6 mins",
+        website: null,
+        phone: "+00353861959007",
+        contact: "Cathryn McMahon"
     },
     {
-        place: "B&B, Clogherhead",
-        distance: "15mins",
-        website: "https://dundalk.ie",
-        phone: "+447709128374"
-    }
+        place: "Catherine Rodgers",
+        type: "B&B",
+        distance: "6 mins",
+        website: null,
+        phone: "+00353879186650",
+        contact: "Cathryn McMahon"
+    },
+    {
+        place: "The Glyde Inn",
+        type: "B&B",
+        distance: "10 mins",
+        website: "https://theglydeinn.ie",
+        phone: "+00353429372350",
+        contact: null
+    },
+    {
+        place: "Cathryn Tuite",
+        type: "B&B",
+        distance: "10 mins",
+        website: null,
+        phone: "+00353861959007",
+        contact: "Cathryn Tuite"
+    },
+    {
+        place: "Flynns Boutique Hotel, Termonfeckin",
+        type: "Hotel",
+        distance: "15 mins",
+        website: null,
+        phone: null,
+        contact: null
+    },
 ]

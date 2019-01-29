@@ -1,10 +1,10 @@
 // Icons 
-import Rings from "./svg/rings.svg";
+import Rings from "./svg/ring.svg";
 import Drinks from "./svg/drinks.svg";
 import Speeches from "./svg/speeches.svg";
 import Menu from "./svg/menu.svg";
-import FirstDance from "./svg/first-dance.svg";
-import Music from "./svg/menu.svg";
+import FirstDance from "./svg/married.svg";
+import Music from "./svg/music.svg";
 
 // Music
 
@@ -25,8 +25,8 @@ export const SCHEDULE = [
     {
         icon: {
             name: Rings,
-            height: '42px',
-            width: '50px',
+            height: '56px',
+            width: '56px',
             title: 'Rings'
         },
         time: "12:30",
@@ -35,8 +35,8 @@ export const SCHEDULE = [
     {
         icon: {
             name: Drinks,
-            height: '41px',
-            width: '38px',
+            height: '56px',
+            width: '56px',
             ttle: "Drinks"
         },
         time: "15:00",
@@ -45,8 +45,8 @@ export const SCHEDULE = [
     {
         icon: {
             name: Speeches,
-            height: '41px',
-            width: '38px',
+            height: '56px',
+            width: '56px',
             title: "Speeches"
         },
         time: "17:00",
@@ -55,8 +55,8 @@ export const SCHEDULE = [
     {
         icon: {
             name: Menu,
-            height: '41px',
-            width: '32px',
+            height: '56px',
+            width: '56px',
             title: "Menu"
         },
         time: "17:45",
@@ -65,8 +65,8 @@ export const SCHEDULE = [
     {
         icon: {
             name: FirstDance,
-            height: '41px',
-            width: '32px',
+            height: '56px',
+            width: '56px',
             title: "First Dance",
         },
         time: "20:00",
@@ -75,8 +75,8 @@ export const SCHEDULE = [
     {
         icon: {
             name: Music,
-            height: '41px',
-            width: '36px',
+            height: '56px',
+            width: '56px',
             title: "Music"
         },
         time: "20:30",
@@ -109,14 +109,6 @@ export const DIRECTIONS = [
 ]
 
 export const ACCOMODATION = [
-    {
-        place: "Crowne Plaza Hotel, Dundalk",
-        type: "Hotel",
-        distance: "15 mins",
-        website: "https://dundalk.ie",
-        phone: "+447709128374",
-        code: "FMC" // 22nd May €129 B&B per room
-    },
     {
         place: "Cooley View",
         type: "B&B",

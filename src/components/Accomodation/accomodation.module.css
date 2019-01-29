@@ -6,6 +6,12 @@
 
 .accomodation:first-child {
     margin-top: 130px;
+    margin-bottom: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    color: var(--navy);
+    border: 4px solid var(--blue);
 }
 
 .accomodation header > div {
@@ -22,9 +28,11 @@
     text-decoration: none;
 }
 
-.accomodation a,
-.accomodation span {
-    display: block;
+.accomodation footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media only screen and (max-width: 649px) {

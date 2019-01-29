@@ -8,16 +8,16 @@ class AccomodationItem extends React.Component {
             <li className={styles.accomodation}>
                 <header className={styles.header}>
                     <div>
-                        <img src={props.pin} alt="Location Icon" />
                         <b>{props.place}</b>
                     </div>
                     <div>
-                        <img src={props.cars} alt="Distance Icon" />
                         <span className="font-small font-base-sm">{props.distance} away</span>
                     </div>
                 </header>
-                <a className="text-blue font-small font-base-sm" href={props.web}>{props.web}</a>
-                <span className="font-small font-base-sm">{props.num}</span>
+                <footer>
+                    <a href={props.web} target="_blank" rel="noopener noreferrer" className="text-blue font-small font-base-sm">{props.web}</a>
+                    <a href={`tel:${props.num}`} className="font-small font-base-sm">{props.num}</a>
+                </footer>
             </li>
         )
     }

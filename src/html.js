@@ -8,10 +8,8 @@ export default class HTML extends React.Component {
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+          <title>The Barn Wedding | Conor & Fionnuala | 22nd June 2019</title>
           <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Raleway:300,300i,400,600" rel="stylesheet" />
           {this.props.headComponents}
         </head>

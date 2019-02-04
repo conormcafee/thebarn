@@ -9,6 +9,8 @@ import PhotoCard from "../components/PhotoCard/PhotoCard";
 import Accomodation from "../components/Accomodation";
 
 import * as Data from "../data";
+import Logo from "../svg/logo.svg";
+
 class Index extends React.Component {
     render() {
         return (
@@ -16,7 +18,10 @@ class Index extends React.Component {
                 {/* Hero */}
 
                 <Hero>
-                    <Nav navigation={Data.NAV}/>
+                    <Nav 
+                        logo={Logo}
+                        navigation={Data.NAV}
+                    />
                 </Hero>
 
                 {/* Introduction */}
@@ -82,6 +87,10 @@ class Index extends React.Component {
                         <aside>
                             <Accomodation data={Data.ACCOMODATION} />
                         </aside>
+                    </Container>
+
+                    <Container className="flexcenter">
+                            <img src={Logo} alt="The Barn Wedding" />
                     </Container>
 
                 </div>

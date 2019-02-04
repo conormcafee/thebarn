@@ -88,6 +88,12 @@ figure {
     display: block;
 }
 
+.flexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .inline-block {
     display: inline-block;
 }

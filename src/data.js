@@ -110,6 +110,14 @@ export const DIRECTIONS = [
 
 export const ACCOMODATION = [
     {
+        place: "Crowne Plaza, Dundalk",
+        type: "Hotel",
+        distance: "15 mins",
+        website: "https://www.cpireland.crowneplaza.com/dundalk/",
+        phone: "+003531800848270",
+        contact: null
+    },
+    {
         place: "Cooley View",
         type: "B&B",
         distance: "3 mins",

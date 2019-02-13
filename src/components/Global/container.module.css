@@ -15,10 +15,8 @@
 
     .containerText p {
         max-width: 350px;
-    }
-    
-    .containerText p:first-child {
         text-align: right;
         margin-left: auto;
     }
+    
 }

@@ -18,7 +18,7 @@ import Dromintee from "./images/dromintee.jpg";
 
 export const NAV = [
     { title: "Directions" },
-    { title: "Accomodation" }
+    { title: "Accommodation" }
 ]
 
 export const SCHEDULE = [
@@ -70,7 +70,7 @@ export const SCHEDULE = [
             title: "First Dance",
         },
         time: "20:00",
-        location: "The new Mr & Mrs McAfee invite you out to the forest for their first dance"
+        location: "Mr & Mrs McAfee's first dance"
     },
     {
         icon: {
@@ -80,7 +80,7 @@ export const SCHEDULE = [
             title: "Music"
         },
         time: "20:30",
-        location: "The party begin"
+        location: "The party begins"
     }
 ]
 

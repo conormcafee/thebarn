@@ -4,7 +4,7 @@ import Nav from "../components/Nav/nav";
 import Layout from "../components/layout";
 import Container from "../components/Global/container";
 import Schedule from "../components/Schedule";
-import PhotoCards from "../components/PhotoCard";
+// import PhotoCards from "../components/PhotoCard";
 import PhotoCard from "../components/PhotoCard/PhotoCard";
 import Accomodation from "../components/Accomodation";
 
@@ -28,28 +28,25 @@ class Index extends React.Component {
 
                 <Container className="light z10" text id="intro">
                     
-                    <p>Our wedding venue is Segrave Barn in Co. Louth, and while it is a little different, we hope you will love it as much as we do. We have put together this website to help with all the logistics and informaiton you will need for the day. </p>
-                    
-                    <p>We've listed the running order of the day, directions to the chapel &amp; Segrave Barns (only a 25 minutes from Dromintee).  We've also listed accomodation for those wishing to stay the night of the wedding.</p>
+                    <div>
+                        <p>Our wedding venue is Segrave Barn in Co. Louth, and while it is a little different, we hope you will love it as much as we do. We have put together this website to help with all the logistics and informaiton you will need for the day. </p>
+                        <p>We've listed the running order of the day, directions to the chapel &amp; Segrave Barns (only a 25 minutes from Dromintee).  We've also listed accomodation for those wishing to stay the night of the wedding.</p>
+                    </div>
+
+                    <ol className="listReset">
+                        {Data.SCHEDULE.map((day, index) => (
+                            <Schedule 
+                                key={index}
+                                icon={day.icon}
+                                time={day.time}
+                                location={day.location}
+                            />
+                        ))}
+                    </ol>
                 </Container>
 
-                {/* Schedule & Music */}
-
                 <div className="gradient">
-                    <Container className="z10">
-                        <ol className="listReset">
-                            {Data.SCHEDULE.map((day, index) => (
-                                <Schedule 
-                                    key={index}
-                                    icon={day.icon}
-                                    time={day.time}
-                                    location={day.location}
-                                />
-                            ))}
-                        </ol>
-                        <PhotoCards data={Data.MUSIC}/>
-                    </Container>
-                            
+                    
                     {/* Directions */}
 
                     <Container className="z10" id='Directions'>
@@ -89,8 +86,10 @@ class Index extends React.Component {
                         </aside>
                     </Container>
 
-                    <Container className="flexcenter">
+                    <Container>
+                        <div className="flexcenter">
                             <img src={Logo} alt="The Barn Wedding" />
+                        </div>
                     </Container>
 
                 </div>

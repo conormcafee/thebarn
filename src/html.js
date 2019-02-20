@@ -15,13 +15,13 @@ export default class HTML extends React.Component {
           <meta property="og:title" content="The Barn Wedding | Fionnuala & Conor | 22nd June 2019" />
           <meta property="og:description" content="Our wedding venue is Segrave Barn in Co. Louth, and while it is a little different, we hope you will love it as much as we do." />
           <meta property="og:url" content="https://thebarn.wedding" />
-          <meta property="og:image" content={SM} />
+          <meta property="og:image" content={`https://thebarn.wedding/${SM}`} />
 
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="The Barn Wedding | Fionnuala & Conor | 22nd June 2019" />
           <meta name="twitter:description" content="Our wedding venue is Segrave Barn in Co. Louth, and while it is a little different, we hope you will love it as much as we do." />
           <meta name="twitter:url" content="https://thebarn.wedding" />
-          <meta name="twitter:image" content={SM} />
+          <meta name="twitter:image" content={`https://thebarn.wedding/${SM}`} />
 
           <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Raleway:300,300i,400,600" rel="stylesheet" />
           {this.props.headComponents}

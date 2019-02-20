@@ -30,7 +30,7 @@ class Index extends React.Component {
                     
                     <div>
                         <p>Our wedding venue is Segrave Barn in Co. Louth, and while it is a little different, we hope you will love it as much as we do. We have put together this website to help with all the logistics and informaiton you will need for the day. </p>
-                        <p>We've listed the running order of the day, directions to the chapel &amp; Segrave Barns (only a 25 minutes from Dromintee).  We've also listed accomodation for those wishing to stay the night of the wedding.</p>
+                        <p>We've listed the running order of the day, directions to the chapel &amp; Segrave Barns (approx 30 minutes from Dromintee).  We've also listed accomodation for those wishing to stay the night of the wedding.</p>
                     </div>
 
                     <ol className="listReset">
@@ -80,8 +80,8 @@ class Index extends React.Component {
                             <h3 className="bold font-small text-blue mt0 no-uppercase">Accommodation for the night before the wedding</h3>
                             <p>Dromintee Chapel is approx. 1 hour 15 min drive from Ballymena. Anyone wishing to stay the night before the wedding, we would recommend the <a href="https://www.carrickdale.com/index.html" title="Book rooms in the Carrickdale Hotel" target="_blank" rel="noopener noreferrer">Carrickdale Hotel</a>, which is 2 miles from the Chapel. The Crowne Plaza, Dundalk, is approx 15 mins from the Chapel, making it another viable option.</p> 
                             <h3 className="bold font-small text-blue mt0 no-uppercase">Accommodation for night of the wedding</h3>
-                            <p>We have a block booking on rooms with the Crowne Plaza, Dundalk (<b>Please quote "FMC" when booking</b>).  If there is enough interest, we will provide transport from the <i>Crowne Plaza to Segrave Barn (return)</i> for those guests staying in the hotel.  Please contact <a href="tel:+447527063489" title="Call or Text Fionnuala">Fionnuala</a> or <a href="tel:+447709128374" title="Call or Text Conor">Conor</a> if you book into the Crowne Plaza.</p>
-                            <p>For anyone searching for their own accommodation, Segrave Barn is in the village of Dunany, and the nearby townlands are Annagassan, Togher, Clougherhead & Termonfeckin.</p>
+                            <p>We have a block booking on rooms with the Crowne Plaza, Dundalk (<b>Please quote "FMC" when booking</b>).  If there is enough interest, we will provide transport from the <i>Crowne Plaza to Segrave Barns (return)</i> for those guests staying in the hotel.  Please contact <a href="tel:+447527063489" title="Call or Text Fionnuala">Fionnuala</a> or <a href="tel:+447709128374" title="Call or Text Conor">Conor</a> if you book into the Crowne Plaza.</p>
+                            <p>For anyone searching for their own accommodation, Segrave Barns is in the village of Dunany, and the nearby townlands are Annagassan, Togher, Clougherhead & Termonfeckin.</p>
                         </article>
                         
                         <aside>
@@ -99,7 +99,7 @@ class Index extends React.Component {
 
                         <aside>
                             <h2 className="heading font-title mt-0">Day Two</h2>
-                            <p>We will be staying in Segrave Barn for two nights, and will be continuing the celebrations on the Sunday in the bar with some music, food and craic. Everyone is welcome to return to help us keep the party going.</p>
+                            <p>We will be staying in Segrave Barns for two nights, and will be continuing the celebrations on the Sunday in the bar with some music, food and craic. Everyone is welcome to return to help us keep the party going.</p>
                         </aside>
                     </Container>
 

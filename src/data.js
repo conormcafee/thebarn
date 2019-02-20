@@ -100,11 +100,13 @@ export const MUSIC = [
 export const DIRECTIONS = [
     {
         image: Dromintee,
-        venue: "St Patrick's Chapel, Dromintee"
+        venue: "St Patrick's Chapel, Dromintee",
+        url: "https://www.google.com/maps/dir/Ballymena/St+Patrick's+Church,+Dromintee,+Finegans+Road,+Killeavy,+Newry/@54.4769803,-6.7919451,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48603410cd42e129:0xd10181120eb86c9c!2m2!1d-6.2802213!2d54.8652935!1m5!1m1!1s0x4860c5f5dca3e9bf:0x79e7bd1c1eb3b099!2m2!1d-6.4195737!2d54.0899904!3e0"
     },
     {
         image: SegraveSmall,
-        venue: "Segrave Barns, Dunany, Co.Louth"
+        venue: "Segrave Barns, Dunany, Co.Louth",
+        url: "https://www.google.com/maps/dir/St+Patrick's+Church,+Dromintee,+Finegans+Road,+Killeavy,+Newry/Seagrave+House,+Dunany,+Togher,+County+Louth,+Ireland/@54.0230786,-6.4231252,12.74z/data=!4m15!4m14!1m5!1m1!1s0x4860c5f5dca3e9bf:0x79e7bd1c1eb3b099!2m2!1d-6.4195737!2d54.0899904!1m5!1m1!1s0x48672deced81b5c9:0xb18e29db6d30b943!2m2!1d-6.2526283!2d53.8547409!3e0!4e1"
     }
 ]
 

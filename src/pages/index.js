@@ -29,8 +29,8 @@ class Index extends React.Component {
                 <Container className="light z10" text id="intro">
                     
                     <div>
-                        <p>Our wedding venue is Segrave Barn in Co. Louth, and while it is a little different, we hope you will love it as much as we do. We have put together this website to help with all the logistics and informaiton you will need for the day. </p>
-                        <p>We've listed the running order of the day, directions to the chapel &amp; Segrave Barns (approx 30 minutes from Dromintee).  We've also listed accomodation for those wishing to stay the night of the wedding.</p>
+                        <p>Our wedding venue is Segrave Barn in Co. Louth, and while it is a little different, we hope you will love it as much as we do. We have put together this website to help with all the logistics and information you will need for the day. </p>
+                        <p>We've listed the running order of the day, directions to the chapel &amp; Segrave Barns (approx 30 minutes from Dromintee).  We've also listed accommodation for those wishing to stay the night of the wedding.</p>
                     </div>
 
                     <ol className="listReset">
@@ -100,6 +100,9 @@ class Index extends React.Component {
                         <aside>
                             <h2 className="heading font-title mt-0">Day Two</h2>
                             <p>We will be staying in Segrave Barns for two nights, and will be continuing the celebrations on the Sunday in the bar with some music, food and craic. Everyone is welcome to return to help us keep the party going.</p>
+
+                            <p><b>Hope you find all this info helpful, looking forward to 22nd June.</b></p>
+                            <p><b>Fionnuala and Conor</b></p>
                         </aside>
                     </Container>
 

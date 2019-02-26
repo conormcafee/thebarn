@@ -94,7 +94,7 @@ class Index extends React.Component {
                             type="large"
                             image={SGB}
                             title="Segrave Barns, Dunany"
-                            desc="Day Two Celebtations"
+                            desc="Day Two Celebrations"
                         />
 
                         <aside>

@@ -22,6 +22,7 @@
 }
 
 .ul li a:hover {
+    background: transparent;
     color: var(--blue);
 }
 

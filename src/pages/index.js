@@ -73,7 +73,7 @@ class Index extends React.Component {
 
                     {/* Accomodation */}
 
-                    <Container className="z10" id="Accomodation">
+                    <Container className="z10" id="Accommodation">
                         <article>
                             <h2 className="heading font-title mt0">Accommodation</h2>
                             <p>Accommodation on site is limited to the bridal party, so we have combined a list of local accommodation for those wishing to stay over.</p>

@@ -116,7 +116,7 @@ export const ACCOMODATION = [
         type: "Hotel",
         distance: "15 mins",
         website: "https://www.cpireland.crowneplaza.com/dundalk/",
-        phone: "+003531800848270",
+        phone: "+00353429394900",
         contact: null
     },
     {
